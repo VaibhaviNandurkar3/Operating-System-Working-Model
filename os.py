@@ -29,6 +29,6 @@ def simulate_process(pid):
     p.transition("Terminated")
 
 
-for i in range(1, 10):
+for i in range(1,4):
     print(f"\n--- Simulating Process {i} ---")
     simulate_process(i)
